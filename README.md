@@ -16,3 +16,8 @@ Data Science student at UMBC and former Micron employee skilled in machine learn
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake.svg" />
+</picture>
