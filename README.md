@@ -1,5 +1,5 @@
 # 💫 About Me:
-Data Science student at UMBC and former Micron employee skilled in machine learning, Python, and SQL. Currently a Data Analyst at Retriever Essentials, leveraging SQL, Excel, and Tableau to analyze student usage patterns and optimize program offerings. Passionate about turning data into insights to drive impactful decisions.
+Data Science student at UMBC and former Micron employee skilled in machine learning, Python, and SQL. Currently a Data Analyst at Retriever Essentials, leveraging SQL, Excel, and Power Bi to analyze student usage patterns and optimize program offerings. Passionate about turning data into insights to drive impactful decisions.
 
 
 ## 🌐 Socials:
