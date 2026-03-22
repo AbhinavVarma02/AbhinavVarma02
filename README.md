@@ -1,11 +1,17 @@
-# 💫 About Me:
-Data Scientist and Applied AI Engineer with experience across agentic AI workflows, analytics, and reporting. Former Micron (Salesforce) engineer and current UMBC Data Analyst/GA, building automation and decision-support systems using Python, SQL, Tableau/Power BI, and LLM tool-calling workflows. I like turning messy processes into reliable pipelines—faster insights, safer outputs, and measurable impact.
+# 💫 About Me
 
-## 🌐 Socials:
+Data Scientist and Applied AI Engineer with experience across agentic AI workflows, analytics, and reporting. Former Micron Salesforce engineer and current UMBC Data Analyst/GA, building automation and decision-support systems using Python, SQL, Tableau, Power BI, and LLM tool-calling workflows. I enjoy turning messy processes into reliable pipelines with faster insights, safer outputs, and measurable impact.
+
+---
+
+## 🌐 Socials
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-varma-vathadi)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhinavvathadi@gmail.com)
 
-# 💻 Tech Stack:
+---
+
+## 💻 Tech Stack
 
 ### Languages
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -46,15 +52,24 @@ Data Scientist and Applied AI Engineer with experience across agentic AI workflo
 ### Creative
 ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=AbhinavVarma02&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=AbhinavVarma02&theme=dark&hide_border=false)<br/>
+---
+
+## 📊 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=AbhinavVarma02&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=AbhinavVarma02&theme=dark&hide_border=false)](https://git.io/streak-stats)
+
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=AbhinavVarma02&theme=dark&hide_border=false&count_private=true&layout=compact)
 
-### ✍️ Random Dev Quote
+---
+
+## ✍️ Random Dev Quote
+
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake.svg" />
