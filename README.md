@@ -1,5 +1,5 @@
 # 💫 About Me:
-Data Scientist and Applied AI Engineer (UMBC) with experience across agentic AI workflows, analytics, and reporting. Former Micron (Salesforce) engineer and current UMBC Data Analyst/GA, building automation and decision-support systems using Python, SQL, Tableau/Power BI, and LLM tool-calling workflows. I like turning messy processes into reliable pipelines—faster insights, safer outputs, and measurable impact.
+Data Scientist and Applied AI Engineer with experience across agentic AI workflows, analytics, and reporting. Former Micron (Salesforce) engineer and current UMBC Data Analyst/GA, building automation and decision-support systems using Python, SQL, Tableau/Power BI, and LLM tool-calling workflows. I like turning messy processes into reliable pipelines—faster insights, safer outputs, and measurable impact.
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-varma-vathadi)
