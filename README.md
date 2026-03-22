@@ -47,7 +47,7 @@ Data Scientist and Applied AI Engineer with experience across agentic AI workflo
 ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=AbhinavVarma02&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=AbhinavVarma02&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=AbhinavVarma02&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=AbhinavVarma02&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
