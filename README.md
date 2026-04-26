@@ -8,15 +8,15 @@ Applied AI Engineer and Data Scientist building agentic systems, RAG pipelines, 
 
 ## What I Build
 
-- **Agentic AI Systems** — Multi-agent workflows that route tasks, call tools, recover from failures, and produce structured outputs.
+- **Agentic AI Systems**: Multi-agent workflows that route tasks, call tools, recover from failures, and produce structured outputs.
 
-- **RAG Pipelines** — Retrieval systems with chunking, grounding, evaluation, and latency-aware model routing.
+- **RAG Pipelines**: Retrieval systems with chunking, grounding, evaluation, and latency-aware model routing.
 
-- **Machine Learning Pipelines** — End-to-end classification and regression workflows with strong evaluation and deployment-focused monitoring.
+- **Machine Learning Pipelines**: End-to-end classification and regression workflows with strong evaluation and deployment-focused monitoring.
 
-- **LLM Fine-Tuning** — QLoRA and PEFT-based fine-tuning workflows for task-specific models with experiment tracking.
+- **LLM Fine-Tuning**: QLoRA and PEFT-based fine-tuning workflows for task-specific models with experiment tracking.
 
-- **Data Products & Dashboards** — Tableau, Power BI, and Python-based reporting tools that turn messy data into clear decisions.
+- **Data Products & Dashboards**: Tableau, Power BI, and Python-based reporting tools that turn messy data into clear decisions.
 
 ---
 
