@@ -1,6 +1,6 @@
 # Abhinav Varma Vathadi
 
-Applied AI Engineer and Data Scientist building agentic systems, RAG pipelines, and ML workflows that ship to production, not just notebooks.
+AI Engineer and Data Scientist building agentic systems, RAG pipelines, and ML workflows that ship to production, not just notebooks.
 
 **UMBC MPS Data Science '26 · GPA 3.92 · International Award, SAAL 2026**
 
