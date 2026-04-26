@@ -12,7 +12,7 @@ Applied AI Engineer and Data Scientist building agentic systems, RAG pipelines, 
 
 - **RAG Pipelines**: Retrieval systems with chunking, grounding, evaluation, and latency-aware model routing.
 
-- **Machine Learning Pipelines**: End-to-end classification and regression workflows with strong evaluation and deployment-focused monitoring.
+- **Machine Learning Pipelines**: End-to-end classification and regression workflows with thorough evaluation and production monitoring.
 
 - **LLM Fine-Tuning**: QLoRA and PEFT-based fine-tuning workflows for task-specific models with experiment tracking.
 
@@ -55,7 +55,7 @@ Applied CRISP-DM across 578K+ California hospital records. Random Forest final m
 
 ## Current Focus
 
-Targeting **AI/ML Engineering and Data Scientist roles**, full-time, starting May/June 2026.
+Targeting **AI/ML Engineer and Data Scientist roles**, full-time, starting May/June 2026.
 
 Currently deepening work in: MLOps (model observability, drift detection), production deployment patterns, and multi-agent system evaluation.
 
