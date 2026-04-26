@@ -43,7 +43,7 @@ Applied CRISP-DM across 578K+ California hospital records. Random Forest final m
 
 | Metric | Context |
 |---|---|
-| **90% reduction** in LLM inference spend | Step-level routing between Ollama and gpt-4o-mini (Anthem Nation) |
+| **90% reduction** in LLM inference spend | Step-level routing between Ollama and gpt-4o-mini |
 | **MRR 0.73 → 0.91** | RAG chunking, retrieval, and evaluation refinements |
 | **95% reduction** in survey synthesis effort | 40 hours → 2 hours via GenAI + NLP pipeline (UMBC) |
 | **~80% reduction** in reporting time | CrewAI coder agent running Python in Docker sandbox |
