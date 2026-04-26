@@ -119,18 +119,33 @@ Classification, regression, K-Means, PCA, feature engineering, model evaluation,
 ## Certifications
 
 **AI / LLM Engineering**
-- AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents
-- Mastering GenAI: Fine-Tune and Adapt LLMs Effectively
-- Generative AI for Everyone
-- Machine Learning: Build Neural Networks in 77 Lines of Code
+- **AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents**  
+  Udemy · Issued Apr 2026 · Credential ID: UC-a4d94cf8-4c16-49bf-8096-8aa8603fdeed
+
+- **Mastering GenAI: Fine-Tune and Adapt LLMs Effectively**  
+  Udemy · Issued Mar 2026 · Credential ID: UC-3be5057e-a1e1-4376-8ab8-02f23faa1b56
+
+- **Generative AI for Everyone**  
+  DeepLearning.AI · Issued Mar 2025 · Credential ID: O0FHCZR4QS8S
+
+- **Google AI Essentials**  
+  Google · Issued Jun 2025 · Credential ID: 3MPRRZ9XH9I0
+
+- **Machine Learning: Build Neural Networks in 77 Lines of Code**  
+  Udemy · Issued Mar 2026 · Credential ID: UC-c203b375-6485-498d-b98c-71caefcf0fd0
 
 **Data & Analytics**
-- Google Data Analytics Professional Certificate *(Google)*
-- Google AI Essentials *(Google)*
-- Recommendation Systems With Terraform on Google Cloud
-- Statistics and Data Analysis with SPSS: Descriptive Statistics
-- Power BI Beginner to Pro Workshop
+- **Google Data Analytics Professional Certificate**  
+  Google · Issued Jul 2025 · Credential ID: WER9W7KCH7AS
 
+- **Recommendation Systems With Terraform on Google Cloud**  
+  Udemy · Issued Mar 2026 · Credential ID: UC-0e17f8fb-1484-44da-8279-87be04f2f7ad
+
+- **Statistics and Data Analysis with SPSS: Descriptive Statistics**  
+  Udemy · Issued Feb 2026 · Credential ID: UC-65aaea0d-2d72-4558-a802-7309e7a9347d
+
+- **Power BI Beginner to Pro Workshop**  
+  Pragmatic Works · Issued Feb 2025
 ---
 
 ## Contact
