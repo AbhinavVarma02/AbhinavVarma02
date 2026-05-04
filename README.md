@@ -1,6 +1,6 @@
 # Abhinav Varma Vathadi
 
-AI Engineer and Data Scientist building agentic systems, RAG pipelines, and ML workflows that ship to production, not just notebooks.
+Applied AI Engineer and Data Scientist building GenAI, RAG, agentic AI, and ML systems across corporate, university, and startup settings.
 
 **UMBC MPS Data Science '26 · GPA 3.92 · International Award, SAAL 2026**
 
@@ -8,34 +8,37 @@ AI Engineer and Data Scientist building agentic systems, RAG pipelines, and ML w
 
 ## What I Build
 
-- **Agentic AI Systems**: Multi-agent workflows that route tasks, call tools, recover from failures, and produce structured outputs.
+- **Agentic AI Systems**: Tool-calling workflows, event triage pipelines, structured outputs, validation checks, and fallback logic.
 
-- **RAG Pipelines**: Retrieval systems with chunking, grounding, evaluation, and latency-aware model routing.
+- **RAG Pipelines**: Metadata-aware retrieval, query-to-context matching, vector search, grounding, and retrieval evaluation.
 
-- **Machine Learning Pipelines**: End-to-end classification and regression workflows with thorough evaluation and production monitoring.
+- **Machine Learning Pipelines**: Classification, regression, feature engineering, model evaluation, and stakeholder-ready outputs.
 
-- **LLM Fine-Tuning**: QLoRA and PEFT-based fine-tuning workflows for task-specific models with experiment tracking.
+- **LLM Fine-Tuning**: QLoRA and PEFT-based fine-tuning workflows for task-specific model adaptation.
 
-- **Data Products & Dashboards**: Tableau, Power BI, and Python-based reporting tools that turn messy data into clear decisions.
+- **Data Products & Dashboards**: Tableau, Power BI, Python, and SQL workflows that turn messy data into decision-ready insights.
 
 ---
 
 ## Featured Projects
 
 ### [DealSight Intelligence: Autonomous Multi-Agent Orchestration](https://github.com/AbhinavVarma02/DealSight-Intelligence-Autonomous-Multi-Agent-Orchestration)
-3-agent ensemble combining GPT-4o-mini + RAG, a QLoRA fine-tuned Llama 3.2 specialist, and a PyTorch residual DNN to scan live e-commerce feeds and surface high-discount deals in real time. Fine-tuned on 20K product listings; reduced GPU memory from 6.4 GB to 2.2 GB via QLoRA. Deployed serverless on Modal with W&B experiment tracking and a live Gradio dashboard.
+
+3-agent ensemble combining GPT-4o-mini + RAG, a QLoRA fine-tuned Llama 3.2 specialist, and a PyTorch residual DNN to scan live e-commerce feeds and surface high-discount deals. Fine-tuned Meta Llama 3.2-3B on 20,000 e-commerce listings, reducing GPU memory from 6.4 GB to 2.2 GB with a 73.4 MB adapter. Deployed as a serverless endpoint on Modal with W&B experiment tracking, a Gradio dashboard, and Pushover alerts.
 
 **[Live Demo on Hugging Face](https://huggingface.co/spaces/abhinavvathadi/DealSight-Intelligence)**
 
 ---
 
 ### [RIH Care Insight Assistant: Capstone](https://github.com/AbhinavVarma02/RIH-Care-Insight-Assistant)
-Bounded agentic AI assistant for UMBC student health services. Multi-phase NLP pipeline with LLM planning, RAG, IDF-weighted retrieval, and fail-closed safety routing across 5 crisis intent categories. Non-bypassable crisis routing with reactive replanning on retrieval failure. Validated by 56 automated tests covering retrieval ranking, routing accuracy, and decline handling.
+
+Bounded agentic AI assistant for UMBC student services using LLM planning, RAG, IDF-weighted retrieval, prompt engineering, and Strands Agents. Built deterministic safety routing across 5 crisis and policy intent categories with fail-closed fallbacks, regex-based intent classification, ambiguity detection, and reactive clarification. Validated through 56 automated tests covering retrieval ranking, routing accuracy, and decline handling.
 
 ---
 
 ### Hospital Performance Prediction: ML
-Applied CRISP-DM across 578K+ California hospital records. Random Forest final model: **R² 0.916** for resource-usage regression, **83.5% accuracy / F1 0.84** for high-demand classification. K-Means + PCA segmentation into 3 operational efficiency tiers, translated into staffing and capacity planning summaries.
+
+Applied CRISP-DM to 578K+ California OSHPD hospital records, benchmarking Random Forest, XGBoost, and Linear Regression. Selected Random Forest for resource-usage regression with **R² 0.916** and high-demand classification with **83.5% accuracy / F1 0.84**. Used K-Means and PCA to segment hospitals into 3 operational efficiency tiers and translated results into stakeholder-ready summaries for staffing, budgeting, and capacity planning.
 
 ---
 
@@ -43,21 +46,20 @@ Applied CRISP-DM across 578K+ California hospital records. Random Forest final m
 
 | Metric | Context |
 |---|---|
-| **90% reduction** in LLM inference spend | Step-level routing between Ollama and gpt-4o-mini |
-| **MRR 0.73 → 0.91** | RAG chunking, retrieval, and evaluation refinements |
-| **95% reduction** in survey synthesis effort | 40 hours → 2 hours via GenAI + NLP pipeline (UMBC) |
-| **~80% reduction** in reporting time | CrewAI coder agent running Python in Docker sandbox |
-| **57% fewer** reporting handoffs | RAG + CI/CD automation at Micron Technology |
-| **35% reduction** in invalid KPI records | XGBoost pipeline feeding Salesforce Einstein AI |
-| **International Award** | Student Affairs Assessment Leaders (SAAL), Jan 2026 |
+| **MRR 0.73 → 0.91** | Metadata-aware RAG retrieval and query-to-context matching |
+| **2,500+ survey responses analyzed** | GenAI/NLP pipeline for sentiment scoring, theme classification, and review routing |
+| **35% fewer invalid KPI records** | XGBoost and Random Forest pipeline on Salesforce KPI data |
+| **56 automated tests** | Safety, retrieval, routing, and decline-handling validation for RIH assistant |
+| **578K+ records analyzed** | Hospital resource-usage prediction and operational segmentation |
+| **International Award** | Student Affairs Assessment Leaders, Jan 2026 |
 
 ---
 
 ## Current Focus
 
-Targeting **AI/ML Engineer and Data Scientist roles**, full-time, starting May/June 2026.
+Targeting **AI/ML Engineer, Applied AI Engineer, and Data Scientist roles**, full-time, starting May/June 2026.
 
-Currently deepening work in: MLOps (model observability, drift detection), production deployment patterns, and multi-agent system evaluation.
+Currently deepening work in agentic AI systems, RAG evaluation, MLOps, model observability, deployment patterns, and stakeholder-facing AI/data products.
 
 ---
 
@@ -68,7 +70,7 @@ Currently deepening work in: MLOps (model observability, drift detection), produ
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![SQL](https://img.shields.io/badge/sql-000000?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Agentic AI / LLM Engineering**
+**LLM / Agentic AI**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI_Agents_SDK-000000?style=for-the-badge&logo=openai&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-111111?style=for-the-badge&logo=robotframework&logoColor=white)
@@ -77,10 +79,9 @@ Currently deepening work in: MLOps (model observability, drift detection), produ
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-6C3FC0?style=for-the-badge&logo=databricks&logoColor=white)
-![Whisper](https://img.shields.io/badge/Whisper_ASR-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Strands Agents](https://img.shields.io/badge/Strands_Agents-111111?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 
-RAG, QLoRA, PEFT, prompt engineering, tool-calling, quantization, structured JSON outputs, fine-tuning
+RAG, QLoRA, PEFT, prompt engineering, tool-calling workflows, structured outputs, model routing, retrieval evaluation, safety routing
 
 **Machine Learning**
 
@@ -91,14 +92,13 @@ RAG, QLoRA, PEFT, prompt engineering, tool-calling, quantization, structured JSO
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
 
-Classification, regression, K-Means, PCA, feature engineering, model evaluation, leakage-safe time splits, PR-AUC, recall@K
+Classification, regression, Random Forest, XGBoost, K-Means, PCA, feature engineering, model evaluation
 
-**Deployment / Infra**
+**Deployment / Infrastructure**
 
 ![Modal](https://img.shields.io/badge/Modal-000000?style=for-the-badge&logo=lightning&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
@@ -110,6 +110,8 @@ Classification, regression, K-Means, PCA, feature engineering, model evaluation,
 ![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
+KPI design, dashboard refresh pipelines, data validation, stakeholder reporting
+
 **Platforms**
 
 ![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)
@@ -119,33 +121,33 @@ Classification, regression, K-Means, PCA, feature engineering, model evaluation,
 ## Certifications
 
 **AI / LLM Engineering**
-- **AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents**  
-  Udemy · Issued Apr 2026 · Credential ID: UC-a4d94cf8-4c16-49bf-8096-8aa8603fdeed
 
-- **Mastering GenAI: Fine-Tune and Adapt LLMs Effectively**  
-  Udemy · Issued Mar 2026 · Credential ID: UC-3be5057e-a1e1-4376-8ab8-02f23faa1b56
+- **AI Engineer Agentic Track: Complete Agent & MCP Course**  
+  Udemy, Ed Donner · 2026
+
+- **AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents**  
+  Udemy, Ed Donner · 2026
+
+- **Mastering GenAI: Fine-Tune & Adapt LLMs Effectively**  
+  Udemy · 2026
 
 - **Generative AI for Everyone**  
-  DeepLearning.AI · Issued Mar 2025 · Credential ID: O0FHCZR4QS8S
+  DeepLearning.AI · 2025
 
 - **Google AI Essentials**  
-  Google · Issued Jun 2025 · Credential ID: 3MPRRZ9XH9I0
-
-- **Machine Learning: Build Neural Networks in 77 Lines of Code**  
-  Udemy · Issued Mar 2026 · Credential ID: UC-c203b375-6485-498d-b98c-71caefcf0fd0
+  Google · 2025
 
 **Data & Analytics**
-- **Google Data Analytics Professional Certificate**  
-  Google · Issued Jul 2025 · Credential ID: WER9W7KCH7AS
 
-- **Recommendation Systems With Terraform on Google Cloud**  
-  Udemy · Issued Mar 2026 · Credential ID: UC-0e17f8fb-1484-44da-8279-87be04f2f7ad
+- **Google Data Analytics Professional Certificate**  
+  Google · 2025
 
 - **Statistics and Data Analysis with SPSS: Descriptive Statistics**  
-  Udemy · Issued Feb 2026 · Credential ID: UC-65aaea0d-2d72-4558-a802-7309e7a9347d
+  Udemy · 2026
 
 - **Power BI Beginner to Pro Workshop**  
-  Pragmatic Works · Issued Feb 2025
+  Pragmatic Works · 2025
+
 ---
 
 ## Contact
