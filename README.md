@@ -2,7 +2,7 @@
 
 Applied AI Engineer and Data Scientist building GenAI, RAG, agentic AI, and ML systems across corporate, university, and startup settings.
 
-**UMBC MPS Data Science '26 · GPA 3.92 · International Award, SAAL 2026**
+**UMBC MPS Data Science '26 · GPA 3.86 · International Award, SAAL 2026**
 
 ---
 
