@@ -21,6 +21,12 @@ Applied AI Engineer and Data Scientist building GenAI, RAG, agentic AI, and ML s
 ---
 
 ## Featured Projects
+### [ClearCast: Full-Stack Agentic AI App for Weather-Driven Marketing](https://github.com/AbhinavVarma02/ClearCast---Full-Stack-Agentic-AI-App-for-Weather-Driven-Marketing)
+
+Built ClearCast, a weather-driven campaign planning app using Python, MCP, LangGraph, LangChain, GPT-4o-mini, OpenWeatherMap API, and Streamlit to combine 4 campaign inputs with live weather data. The app generates 5-day campaign windows, ad copy, and risk mitigations through agentic tool calling, connecting real-time weather context with practical marketing recommendations.
+
+---
+---
 
 ### [DealSight Intelligence: Autonomous Multi-Agent Orchestration](https://github.com/AbhinavVarma02/DealSight-Intelligence-Autonomous-Multi-Agent-Orchestration)
 
