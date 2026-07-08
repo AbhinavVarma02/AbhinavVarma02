@@ -1,3 +1,5 @@
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/2b31e7b1-dbc3-43f5-be18-17981f67e543" />
+
 # Abhinav Varma Vathadi
 
 Applied AI Engineer and Data Scientist building GenAI, RAG, agentic AI, computer vision, MLOps/LLMOps, and ML systems across healthcare, sports, university, and startup settings.
