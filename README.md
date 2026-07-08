@@ -32,6 +32,12 @@ Built Clinical-Trace AI, a privacy-aware healthcare AI platform for 30-day readm
 
 ---
 
+### [AgentOps EvalBench MCP: LLM Evaluation & Observability Platform](https://github.com/AbhinavVarma02/Agentops-Evalbench-MCP)
+
+Built AgentOps EvalBench MCP, a production-style LLM evaluation and observability platform for RAG applications that brings backend evaluation, dashboard review, CLI workflows, and MCP tool access into one shared evaluation engine. The platform uses FastAPI, Streamlit, Typer, PostgreSQL/Supabase, and 6 MCP tools to evaluate groundedness, hallucination risk, retrieval quality, relevance, latency, token usage, and cost. It supports prompt and model comparison, run tracking, and Markdown/JSON reporting, and was validated on a 40-example human-labeled RAG dataset with 87.5% pass/fail agreement, 90.0% groundedness agreement, and 0.94 hallucination F1.
+
+---
+
 ### [GameLens AI: Computer Vision and LLM-Powered Soccer Analytics](https://github.com/AbhinavVarma02/Gamelens-AI)
 
 Built GameLens AI, an end-to-end soccer video analytics app that turns match clips into structured tracking data, visual analytics, and grounded AI-generated insights. The app uses YOLOv8 and ByteTrack for player detection and tracking, OpenCV for video processing, Pandas and NumPy for metric generation, Matplotlib for charts, and a LangGraph + GPT-4o-mini workflow for analyst-style reporting and Q&A. It exports annotated videos, CSV/JSON tracking data, movement metrics, zone activity charts, heatmaps, and grounded answers that reason only over computed pipeline outputs rather than inventing unsupported match events.
