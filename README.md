@@ -1,4 +1,5 @@
-<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/2b31e7b1-dbc3-43f5-be18-17981f67e543" />
+
+<img width="2172" height="724" alt="abhinav-github-banner-premium" src="https://github.com/user-attachments/assets/13ae0622-7b8a-45d1-83ab-3607f3f04b27" />
 
 # Abhinav Varma Vathadi
 
