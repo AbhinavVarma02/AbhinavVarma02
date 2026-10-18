@@ -2,7 +2,7 @@
 
 # Abhinav Varma Vathadi
 
-Applied AI Engineer and Data Scientist building GenAI, RAG, agentic AI, computer vision, MLOps/LLMOps, and ML systems across healthcare, sports, university, and startup settings.
+Applied AI Engineer and Data Scientist building **evidence-grounded agents, full-stack AI products, evaluation platforms, computer vision, and reproducible ML/data pipelines**—with public demos, measured results, and documented limitations.
 
 **UMBC MPS Data Science '26 · GPA 3.86 · International Award, SAAL 2026**
 
@@ -10,7 +10,7 @@ Applied AI Engineer and Data Scientist building GenAI, RAG, agentic AI, computer
 
 ## What I Build
 
-- **Agentic AI Systems**: Tool-calling workflows, LangGraph pipelines, multi-agent reasoning, grounded Q&A, structured outputs, validation checks, and fallback logic.
+- **Agentic AI Systems**: LangGraph orchestration, MCP tools, multi-agent workflows, structured outputs, evidence checks, human-in-the-loop review, safety controls, and fallbacks.
 
 - **RAG & Grounded LLM Apps**: Metadata-aware retrieval, query-to-context matching, vector search, prompt grounding, retrieval evaluation, and safe answer generation.
 
@@ -20,82 +20,136 @@ Applied AI Engineer and Data Scientist building GenAI, RAG, agentic AI, computer
 
 - **Machine Learning Pipelines**: Classification, regression, feature engineering, leakage-safe validation, threshold tuning, SHAP explainability, and stakeholder-ready model outputs.
 
-- **Data Products & Dashboards**: Streamlit, Gradio, Tableau, Power BI, Python, and SQL workflows that turn messy data into usable product experiences and decision-ready insights.
+- **Data Products & Dashboards**: React/TypeScript, FastAPI, Streamlit, Gradio, Tableau, Power BI, Python, and SQL interfaces that make complex model outputs usable.
 
 ---
 
 ## Featured Projects
 
-### [Clinical-Trace AI: Healthcare Readmission Risk Platform with MLOps & LLMOps Observability](https://github.com/AbhinavVarma02/Clinical-Trace-AI)
+### [Clinical-Trace AI 2.0: Evidence-Grounded Clinical Agents & Readmission Risk](https://github.com/AbhinavVarma02/Clinical-Trace-AI)
 
-Built Clinical-Trace AI, a privacy-aware healthcare AI platform for 30-day readmission risk prediction using the UCI Diabetes 130-US Hospitals dataset, leakage-safe patient-level splits, engineered utilization features, and validation-tuned model selection across Logistic Regression, Random Forest, and XGBoost. The system serves predictions through FastAPI and a Streamlit dashboard, explains risk drivers with SHAP-style top features, tracks training with MLflow, supports optional LangChain/LangSmith LLM explanations, and includes offline rule-based fallback logic, safety disclaimers, secret checks, and pytest coverage for API, preprocessing, model, LLM safety, and security workflows.
+An interactive healthcare AI research prototype that pairs a 30-day readmission model with a LangGraph case-review agent. The **React + TypeScript workspace** lets visitors explore **synthetic FHIR R4 records**, patient-scoped retrieval, source-linked claims, default-deny access controls, and content-bound human approval. In a recorded 42-case synthetic evaluation, the public Qwen3 model passed **39 cases**; the original readmission model achieved **0.683 ROC-AUC / 0.240 PR-AUC** on held-out data. **Not clinically validated or intended for patient care.**
 
-**[Live Demo on Hugging Face](https://huggingface.co/spaces/abhinavvathadi/clinical-trace-ai)**
-
----
-
-### [AgentOps EvalBench MCP: LLM Evaluation & Observability Platform](https://github.com/AbhinavVarma02/Agentops-Evalbench-MCP)
-
-Built AgentOps EvalBench MCP, a production-style LLM evaluation and observability platform for RAG applications that brings backend evaluation, dashboard review, CLI workflows, and MCP tool access into one shared evaluation engine. The platform uses FastAPI, Streamlit, Typer, PostgreSQL/Supabase, and 6 MCP tools to evaluate groundedness, hallucination risk, retrieval quality, relevance, latency, token usage, and cost. It supports prompt and model comparison, run tracking, and Markdown/JSON reporting, and was validated on a 40-example human-labeled RAG dataset with 87.5% pass/fail agreement, 90.0% groundedness agreement, and 0.94 hallucination F1.
+**[Try Clinical-Trace AI 2.0](https://clinical-trace-ai.vathadiabhinav.workers.dev/)** · [Original Streamlit demo](https://huggingface.co/spaces/abhinavvathadi/clinical-trace-ai) · [Evaluation details](https://github.com/AbhinavVarma02/Clinical-Trace-AI/blob/main/docs/EVALUATION.md)
 
 ---
 
-### [GameLens AI: Computer Vision and LLM-Powered Soccer Analytics](https://github.com/AbhinavVarma02/Gamelens-AI)
+### [AgentOps EvalBench MCP: RAG Evaluation & Observability](https://github.com/AbhinavVarma02/Agentops-Evalbench-MCP)
 
-Built GameLens AI, an end-to-end soccer video analytics app that turns match clips into structured tracking data, visual analytics, and grounded AI-generated insights. The app uses YOLOv8 and ByteTrack for player detection and tracking, OpenCV for video processing, Pandas and NumPy for metric generation, Matplotlib for charts, and a LangGraph + GPT-4o-mini workflow for analyst-style reporting and Q&A. It exports annotated videos, CSV/JSON tracking data, movement metrics, zone activity charts, heatmaps, and grounded answers that reason only over computed pipeline outputs rather than inventing unsupported match events.
+An evaluation workbench for testing RAG and agentic AI systems before release. **FastAPI, Streamlit, a CLI, PostgreSQL, and six MCP tools** share an engine for groundedness, hallucination risk, retrieval quality, latency, estimated generation cost, run comparison, and CI quality gates. On **40 human-labeled RAG examples**, it measured **87.5% pass/fail agreement** and **0.94 hallucination F1**. The public demo uses a deterministic offline mode.
 
-**[Live Demo on Hugging Face](https://huggingface.co/spaces/abhinavvathadi/gamelens-ai)**
-
----
-
-### [ClearCast: Full-Stack Agentic AI App for Weather-Driven Marketing](https://github.com/AbhinavVarma02/ClearCast---Full-Stack-Agentic-AI-App-for-Weather-Driven-Marketing)
-
-Built ClearCast, a weather-driven campaign planning app using Python, MCP, LangGraph, LangChain, GPT-4o-mini, OpenWeatherMap API, and Streamlit to combine campaign inputs with live weather data. The app generates 5-day campaign windows, ad copy, and risk mitigations through agentic tool calling, connecting real-time weather context with practical marketing recommendations.
+**[Live Dashboard](https://agentops-evalbench-mcp.streamlit.app/)** · [API documentation](https://agentops-evalbench-api.onrender.com/docs)
 
 ---
 
-### [DealSight Intelligence: Autonomous Multi-Agent Orchestration](https://github.com/AbhinavVarma02/DealSight-Intelligence-Autonomous-Multi-Agent-Orchestration)
+### [ClearCast: Full-Stack Agentic AI for Weather-Driven Marketing](https://github.com/AbhinavVarma02/ClearCast---Full-Stack-Agentic-AI-App-for-Weather-Driven-Marketing)
 
-Built DealSight Intelligence, a 3-agent ensemble combining GPT-4o-mini + RAG, a QLoRA fine-tuned Llama 3.2 specialist, and a PyTorch residual DNN to scan live e-commerce feeds and surface high-discount deals. Fine-tuned Meta Llama 3.2-3B on 20,000 e-commerce listings, reducing GPU memory from 6.4 GB to 2.2 GB with a 73.4 MB adapter. Deployed as a serverless endpoint on Modal with W&B experiment tracking, a Gradio dashboard, and Pushover alerts.
+A campaign-planning app that turns OpenWeatherMap forecasts into five-day promotion windows, supporting evidence, suggested copy, and risk notes. Built with **LangGraph, GPT-4o-mini, four MCP weather tools, FastAPI, and a TypeScript/Fastify gateway**; deterministic checks verify the model's cited forecasts and client rules before human review. Includes **45 scripted offline evaluation scenarios**. Demo clients are fictional, and plans are not automatically published.
 
-**[Live Demo on Hugging Face](https://huggingface.co/spaces/abhinavvathadi/DealSight-Intelligence)**
-
----
-
-### [RIH Care Insight Assistant: Capstone](https://github.com/AbhinavVarma02/RIH-Care-Insight-Assistant)
-
-Built a bounded agentic AI assistant for UMBC student services using LLM planning, RAG, IDF-weighted retrieval, prompt engineering, and Strands Agents. Designed deterministic safety routing across 5 crisis and policy intent categories with fail-closed fallbacks, regex-based intent classification, ambiguity detection, and reactive clarification. Validated through 56 automated tests covering retrieval ranking, routing accuracy, and decline handling.
+**[Live Demo](https://huggingface.co/spaces/abhinavvathadi/ClearCast-AI)**
 
 ---
 
-### Hospital Performance Prediction: ML
+### [Room for Both: Cultural Discovery & Negotiation Decision Support](https://github.com/AbhinavVarma02/Room-for-Both)
 
-Applied CRISP-DM to 578K+ California OSHPD hospital records, benchmarking Random Forest, XGBoost, and Linear Regression. Selected Random Forest for resource-usage regression with **R² 0.916** and high-demand classification with **83.5% accuracy / F1 0.84**. Used K-Means and PCA to segment hospitals into 3 operational efficiency tiers and translated results into stakeholder-ready summaries for staffing, budgeting, and capacity planning.
+A collaboration-planning app that helps independent brands and venues find common ground. It uses **Qloo cultural signals** to explain venue matches, collects each party's actual terms, checks nine partnership arrangements against explicit constraints, and proposes the smallest negotiable change that could make a blocked deal feasible. Produces a shareable brief while keeping unknown terms and hypothetical changes clearly labeled. The live app can fall back to fictional demonstration data when its time-limited discovery access is unavailable.
+
+**[Explore the App](https://room-for-both.room-for-both.workers.dev/)**
 
 ---
+
+### [FabPilot AI: Explainable Semiconductor Yield Decision Support](https://github.com/AbhinavVarma02/Fabpilot-ai)
+
+A Streamlit + LangGraph workflow combining **SECOM process-sensor risk**, a **PyTorch CNN for wafer-map defect patterns**, local feature explanations, and confidence-based human-review routing. On a 180-map public demo sample, **85 predictions were auto-accepted at 88.2% accuracy within that accepted subset**; the other **95 were flagged for review**. Built to support investigations, not to assert physical root causes or autonomous production decisions.
+
+**[Live Demo](https://huggingface.co/spaces/AbhinavVarma/fabpilot-ai)** · [Evaluation audit](https://github.com/AbhinavVarma02/Fabpilot-ai/blob/main/reports/wm811k_review_audit.md)
+
+---
+
+### [GameLens AI: Computer Vision & Grounded Soccer Analytics](https://github.com/AbhinavVarma02/Gamelens-AI)
+
+Converts soccer clips into player detections, tracks, movement charts, heatmaps, and evidence-grounded analyst Q&A. **YOLOv8, ByteTrack, OpenCV, Pandas, and LangGraph** turn visual observations into structured outputs rather than asking an LLM to invent match events. A bundled 20-second clip produced **400 processed frames and 4,718 tracking rows**.
+
+**[Live Demo](https://huggingface.co/spaces/abhinavvathadi/gamelens-ai)**
+
+---
+
+### [DealSight Intelligence: RAG, QLoRA & Multi-Agent Price Estimation](https://github.com/AbhinavVarma02/DealSight-Intelligence-Autonomous-Multi-Agent-Orchestration)
+
+An e-commerce deal-discovery system combining **RAG + GPT-4o-mini**, a **QLoRA fine-tuned Llama 3.2 specialist**, and a **PyTorch pricing network**. Fine-tuned on **20,000 listings** and reduced specialist-training GPU memory from **6.4 GB to 2.2 GB**. Includes Gradio review, Weights & Biases tracking, and optional alerts; the public Space runs in **dry-run mode** without paid integrations.
+
+**[Demo](https://huggingface.co/spaces/abhinavvathadi/DealSight-Intelligence)**
+
+---
+
+### [Flight Trajectory Anomaly Detection: Reproducible Multi-Model Benchmark](https://github.com/AbhinavVarma02/A-Multi-Model-Benchmark-for-Flight-Trajectory-Anomaly-Detection)
+
+A reproducible ADS-B trajectory research benchmark comparing **Isolation Forest, LSTM autoencoder, VAE, and TS2Vec-style representations**. Includes seeded synthetic anomaly injection, multi-seed evaluation, error diagnostics, and a Gradio demo. Reported model runs are **smoke-mode pipeline validation**, not final claims about real-world anomaly-detection quality.
+
+**[Demo](https://abhinavvathadi-flight-trajectory-anomaly-detection.hf.space/)**
+
+---
+
+### GA4 Checkout Funnel Analytics: Data Engineering & Power BI
+
+Modeled **4.3 million GA4 events** using **BigQuery, dbt, Python, and Power BI** to study checkout behavior and identify **279,586 of 360,000 sessions** without a product view. Produced a four-page analysis with **hypothetical** recovery scenarios, not measured revenue improvements.
+
+---
+
+### [NYC Mobility Big Data Analytics: Reproducible Spark & Hadoop Pipeline](https://github.com/AbhinavVarma02/NYC-Mobility-Big-Data-Analytics)
+
+A locally reproducible data platform that ingests public **NYC TLC taxi trips and traffic counts** into **HDFS**, transforms data with **PySpark and Spark SQL**, publishes curated **Parquet/Hive** tables, and generates zone-demand summaries using **Scala**. Dockerized infrastructure lets others reproduce the historical analysis without a cloud account; traffic counts are treated as a proxy, not direct travel-time measurements.
+
+---
+
+### RIH Care Insight Assistant: Bounded Student-Support AI Capstone
+
+A collaborative agentic assistant for university student-services Q&A using **RAG, IDF-weighted retrieval, Strands Agents, and deterministic safety routing**. Designed fail-closed handling for crisis and policy-sensitive requests, ambiguity detection, and human-facing clarification, with **56 automated tests** in the documented capstone version.
+
+---
+
+### [Hospital Performance Prediction: Regression, Classification & Clustering](https://github.com/AbhinavVarma02/Hospital_Performance_Prediction_ML)
+
+A **collaborative UMBC machine-learning course project** with Devika Rani Sanaboyina, exploring hospital readmission and performance data through preprocessing, regression, classification, and clustering notebooks. The repository includes an executive summary and presentation documenting the modeling workflow and comparisons.
+
+---
+
+### [Agentic Profile & Lead Assistant: Tool-Calling Q&A](https://github.com/AbhinavVarma02/Agentic-profile-lead-assistant)
+
+A Python + Gradio professional-profile assistant using **OpenAI tool calling, curated SQLite Q&A memory, and an evaluator–optimizer loop**. Includes runtime logging and optional Pushover notifications for new leads or unanswered questions, while keeping personal local-only data out of the public demo.
+
+**[Demo](https://huggingface.co/spaces/abhinavvathadi/agentic-profile-lead-assistant)**
+
+---
+
 
 ## Professional Impact
 
 | Metric | Context |
 |---|---|
-| **400 processed frames / 4,718 tracking rows** | GameLens AI soccer video analytics using YOLOv8, ByteTrack, OpenCV, and structured tracking exports |
-| **ROC-AUC ~0.683 / PR-AUC ~0.240** | Clinical-Trace AI readmission model with leakage-safe longitudinal features and validation-tuned thresholding |
-| **MRR 0.73 → 0.91** | Metadata-aware RAG retrieval and query-to-context matching |
-| **2,500+ survey responses analyzed** | GenAI/NLP pipeline for sentiment scoring, theme classification, and review routing |
-| **35% fewer invalid KPI records** | XGBoost and Random Forest pipeline on Salesforce KPI data |
-| **56 automated tests** | Safety, retrieval, routing, and decline-handling validation for RIH assistant |
-| **578K+ records analyzed** | Hospital resource-usage prediction and operational segmentation |
-| **International Award** | Student Affairs Assessment Leaders, Jan 2026 |
+| **39/42 cases passed** | Clinical-Trace AI 2.0's recorded public-model evaluation on a synthetic case suite; deterministic mode passed 41/42 |
+| **ROC-AUC 0.683 / PR-AUC 0.240** | Clinical-Trace's held-out readmission-risk model; research prototype, not clinical validation |
+| **87.5% agreement / 0.94 F1** | AgentOps EvalBench's pass/fail agreement and hallucination F1 on 40 labeled RAG cases |
+| **85 of 180 maps auto-accepted** | FabPilot AI achieved 88.2% accuracy *among accepted cases*; 95 were routed for review |
+| **400 frames / 4,718 tracking rows** | GameLens AI video analysis using YOLOv8 and ByteTrack |
+| **4.3M events analyzed** | GA4 funnel analysis; identified 279,586 of 360K sessions without a product view |
+| **45 scripted evaluation scenarios** | ClearCast's offline, evidence-and-constraint validation checks |
+| **MRR@10: 0.73 → 0.91** | Metadata-aware retrieval work |
+| **2,500+ survey responses analyzed** | GenAI/NLP review with human checks |
+| **~35% fewer invalid KPI records** | Observed after combined reviewer-prioritization and validation/process changes |
+| **International Award** | Student Affairs Assessment Leaders, 2026 |
 
 ---
+
 
 ## Current Focus
 
-Targeting **AI/ML Engineer, Applied AI Engineer, Data Scientist, and Computer Vision / MLOps-focused AI Engineer roles**, full-time, starting May/June 2026.
+Open to **full-time Applied AI Engineer, AI/ML Engineer, AI-focused Software Engineer, Forward Deployed Engineer, and Data Scientist roles**.
 
-Currently deepening work in agentic AI systems, RAG evaluation, computer vision analytics, healthcare AI, MLOps/LLMOps observability, model deployment, safety validation, and stakeholder-facing AI/data products.
+I focus on building AI applications people can inspect and test: grounded agents, human-in-the-loop workflows, LLM evaluation, computer vision, reproducible machine-learning pipelines, and production-minded APIs and user interfaces. Explore the **live demos and linked repositories above** to see how the systems work, what was measured, and where their limitations are documented.
 
 ---
+
 
 ## Tech Stack
 
@@ -103,6 +157,8 @@ Currently deepening work in agentic AI systems, RAG evaluation, computer vision 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![SQL](https://img.shields.io/badge/sql-000000?style=for-the-badge&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 **LLM / Agentic AI**
 
@@ -144,6 +200,9 @@ Classification, regression, Random Forest, XGBoost, K-Means, PCA, feature engine
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Modal](https://img.shields.io/badge/Modal-000000?style=for-the-badge&logo=lightning&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -160,6 +219,10 @@ Experiment tracking, model artifacts, API deployment, LLM tracing, privacy-aware
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 ![Tableau Prep](https://img.shields.io/badge/Tableau_Prep-1F1F1F?style=for-the-badge&logo=Tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 KPI design, dashboard refresh pipelines, data validation, stakeholder reporting, product analytics
@@ -167,6 +230,8 @@ KPI design, dashboard refresh pipelines, data validation, stakeholder reporting,
 **Platforms**
 
 ![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ---
 
