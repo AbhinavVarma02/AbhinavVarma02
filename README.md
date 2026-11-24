@@ -280,10 +280,6 @@ KPI design, dashboard refresh pipelines, data validation, stakeholder reporting,
 
 ---
 
-[![Contribution terrain — actual relative GitHub activity levels](assets/contribution-terrain.svg)](https://github.com/AbhinavVarma02#contribution-graph)
-
-[Activity explorer source](activity.html)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake.svg" />
