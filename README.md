@@ -32,13 +32,21 @@ Applied AI Engineer and Data Scientist building **evidence-grounded agents, full
 
 <img src="assets/project-01.svg" width="960" alt="" />
 
+### [Healthcare Payment Integrity: Claim Review Optimization, Financial Risk & Model Validation](https://github.com/AbhinavVarma02/Healthcare-Payment-Integrity)
+
+A healthcare payment integrity research platform that prioritizes Medicare Fee-for-Service claim reviews under a constrained audit budget. Built with **Python, DuckDB, Parquet, FastAPI, React, and TypeScript**, it analyzes **199,052 claim groups across eight CMS CERT public releases** and compares risk ranking, randomized exploration, design-aware estimation, and delayed-feedback learning. At 5% review capacity across 200 simulation seeds, the 10% exploration hybrid retained **95.9% of greedy review yield**. The boosted-tree challenger did not meet its predefined practical improvement criteria. The public workspace presents frozen aggregate results and a fictional review simulation; financial assumptions are hypothetical, and published disagreements are not proof of fraud.
+
+**[Live Analyst Workspace](https://healthcare-payment-integrity.pages.dev/)** · [Research report](https://github.com/AbhinavVarma02/Healthcare-Payment-Integrity/blob/main/docs/REPORT.md) · [v1.0.1 release](https://github.com/AbhinavVarma02/Healthcare-Payment-Integrity/releases/tag/v1.0.1)
+
+<img src="assets/project-02.svg" width="960" alt="" />
+
 ### [Clinical-Trace AI 2.0: Evidence-Grounded Clinical Agents & Readmission Risk](https://github.com/AbhinavVarma02/Clinical-Trace-AI)
 
 An interactive healthcare AI research prototype that pairs a 30-day readmission model with a LangGraph case-review agent. The **React + TypeScript workspace** lets visitors explore **synthetic FHIR R4 records**, patient-scoped retrieval, source-linked claims, default-deny access controls, and content-bound human approval. In a recorded 42-case synthetic evaluation, the public Qwen3 model passed **39 cases**; the original readmission model achieved **0.683 ROC-AUC / 0.240 PR-AUC** on held-out data. **Not clinically validated or intended for patient care.**
 
 **[Try Clinical-Trace AI 2.0](https://clinical-trace-ai.vathadiabhinav.workers.dev/)** · [Original Streamlit demo](https://huggingface.co/spaces/abhinavvathadi/clinical-trace-ai) · [Evaluation details](https://github.com/AbhinavVarma02/Clinical-Trace-AI/blob/main/docs/EVALUATION.md)
 
-<img src="assets/project-02.svg" width="960" alt="" />
+<img src="assets/project-03.svg" width="960" alt="" />
 
 ### [AgentOps EvalBench MCP: RAG Evaluation & Observability](https://github.com/AbhinavVarma02/Agentops-Evalbench-MCP)
 
@@ -46,7 +54,7 @@ An evaluation workbench for testing RAG and agentic AI systems before release. *
 
 **[Live Dashboard](https://agentops-evalbench-mcp.streamlit.app/)** · [API documentation](https://agentops-evalbench-api.onrender.com/docs)
 
-<img src="assets/project-03.svg" width="960" alt="" />
+<img src="assets/project-04.svg" width="960" alt="" />
 
 ### [ClearCast: Full-Stack Agentic AI for Weather-Driven Marketing](https://github.com/AbhinavVarma02/ClearCast---Full-Stack-Agentic-AI-App-for-Weather-Driven-Marketing)
 
@@ -54,7 +62,7 @@ A campaign-planning app that turns OpenWeatherMap forecasts into five-day promot
 
 **[Live Demo](https://huggingface.co/spaces/abhinavvathadi/ClearCast-AI)**
 
-<img src="assets/project-04.svg" width="960" alt="" />
+<img src="assets/project-05.svg" width="960" alt="" />
 
 ### [Room for Both: Cultural Discovery & Negotiation Decision Support](https://github.com/AbhinavVarma02/Room-for-Both)
 
@@ -62,7 +70,7 @@ A collaboration-planning app that helps independent brands and venues find commo
 
 **[Explore the App](https://room-for-both.room-for-both.workers.dev/)**
 
-<img src="assets/project-05.svg" width="960" alt="" />
+<img src="assets/project-06.svg" width="960" alt="" />
 
 ### [FabPilot AI: Explainable Semiconductor Yield Decision Support](https://github.com/AbhinavVarma02/Fabpilot-ai)
 
@@ -70,7 +78,7 @@ A Streamlit + LangGraph workflow combining **SECOM process-sensor risk**, a **Py
 
 **[Live Demo](https://huggingface.co/spaces/AbhinavVarma/fabpilot-ai)** · [Evaluation audit](https://github.com/AbhinavVarma02/Fabpilot-ai/blob/main/reports/wm811k_review_audit.md)
 
-<img src="assets/project-06.svg" width="960" alt="" />
+<img src="assets/project-07.svg" width="960" alt="" />
 
 ### [GameLens AI: Computer Vision & Grounded Soccer Analytics](https://github.com/AbhinavVarma02/Gamelens-AI)
 
@@ -78,7 +86,7 @@ Converts soccer clips into player detections, tracks, movement charts, heatmaps,
 
 **[Live Demo](https://huggingface.co/spaces/abhinavvathadi/gamelens-ai)**
 
-<img src="assets/project-07.svg" width="960" alt="" />
+<img src="assets/project-08.svg" width="960" alt="" />
 
 ### [DealSight Intelligence: RAG, QLoRA & Multi-Agent Price Estimation](https://github.com/AbhinavVarma02/DealSight-Intelligence-Autonomous-Multi-Agent-Orchestration)
 
@@ -86,7 +94,7 @@ An e-commerce deal-discovery system combining **RAG + GPT-4o-mini**, a **QLoRA f
 
 **[Demo](https://huggingface.co/spaces/abhinavvathadi/DealSight-Intelligence)**
 
-<img src="assets/project-08.svg" width="960" alt="" />
+<img src="assets/project-09.svg" width="960" alt="" />
 
 ### [Flight Trajectory Anomaly Detection: Reproducible Multi-Model Benchmark](https://github.com/AbhinavVarma02/A-Multi-Model-Benchmark-for-Flight-Trajectory-Anomaly-Detection)
 
@@ -94,31 +102,31 @@ A reproducible ADS-B trajectory research benchmark comparing **Isolation Forest,
 
 **[Demo](https://abhinavvathadi-flight-trajectory-anomaly-detection.hf.space/)**
 
-<img src="assets/project-09.svg" width="960" alt="" />
+<img src="assets/project-10.svg" width="960" alt="" />
 
 ### GA4 Checkout Funnel Analytics: Data Engineering & Power BI
 
 Modeled **4.3 million GA4 events** using **BigQuery, dbt, Python, and Power BI** to study checkout behavior and identify **279,586 of 360,000 sessions** without a product view. Produced a four-page analysis with **hypothetical** recovery scenarios, not measured revenue improvements.
 
-<img src="assets/project-10.svg" width="960" alt="" />
+<img src="assets/project-11.svg" width="960" alt="" />
 
 ### [NYC Mobility Big Data Analytics: Reproducible Spark & Hadoop Pipeline](https://github.com/AbhinavVarma02/NYC-Mobility-Big-Data-Analytics)
 
 A locally reproducible data platform that ingests public **NYC TLC taxi trips and traffic counts** into **HDFS**, transforms data with **PySpark and Spark SQL**, publishes curated **Parquet/Hive** tables, and generates zone-demand summaries using **Scala**. Dockerized infrastructure lets others reproduce the historical analysis without a cloud account; traffic counts are treated as a proxy, not direct travel-time measurements.
 
-<img src="assets/project-11.svg" width="960" alt="" />
+<img src="assets/project-12.svg" width="960" alt="" />
 
 ### RIH Care Insight Assistant: Bounded Student-Support AI Capstone
 
 A collaborative agentic assistant for university student-services Q&A using **RAG, IDF-weighted retrieval, Strands Agents, and deterministic safety routing**. Designed fail-closed handling for crisis and policy-sensitive requests, ambiguity detection, and human-facing clarification, with **56 automated tests** in the documented capstone version.
 
-<img src="assets/project-12.svg" width="960" alt="" />
+<img src="assets/project-13.svg" width="960" alt="" />
 
 ### [Hospital Performance Prediction: Regression, Classification & Clustering](https://github.com/AbhinavVarma02/Hospital_Performance_Prediction_ML)
 
 A **collaborative UMBC machine-learning course project** with Devika Rani Sanaboyina, exploring hospital readmission and performance data through preprocessing, regression, classification, and clustering notebooks. The repository includes an executive summary and presentation documenting the modeling workflow and comparisons.
 
-<img src="assets/project-13.svg" width="960" alt="" />
+<img src="assets/project-14.svg" width="960" alt="" />
 
 ### [Agentic Profile & Lead Assistant: Tool-Calling Q&A](https://github.com/AbhinavVarma02/Agentic-profile-lead-assistant)
 
