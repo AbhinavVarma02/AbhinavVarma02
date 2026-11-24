@@ -1,5 +1,8 @@
 
-<img width="2172" height="724" alt="abhinav-github-banner-premium" src="https://github.com/user-attachments/assets/13ae0622-7b8a-45d1-83ab-3607f3f04b27" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/noir-hero-still.svg" />
+  <img width="960" alt="Abhinav Varma Vathadi — Applied AI Engineer and Data Scientist" src="assets/noir-hero.svg" />
+</picture>
 
 # Abhinav Varma Vathadi
 
@@ -9,7 +12,7 @@ Applied AI Engineer and Data Scientist building **evidence-grounded agents, full
 
 ---
 
-## What I Build
+## ![What I Build](assets/what-i-build.svg)
 
 - **Agentic AI Systems**: LangGraph orchestration, MCP tools, multi-agent workflows, structured outputs, evidence checks, human-in-the-loop review, safety controls, and fallbacks.
 
@@ -25,7 +28,9 @@ Applied AI Engineer and Data Scientist building **evidence-grounded agents, full
 
 ---
 
-## Featured Projects
+## ![Featured Projects](assets/featured-projects.svg)
+
+<img src="assets/project-01.svg" width="960" alt="" />
 
 ### [Clinical-Trace AI 2.0: Evidence-Grounded Clinical Agents & Readmission Risk](https://github.com/AbhinavVarma02/Clinical-Trace-AI)
 
@@ -33,7 +38,7 @@ An interactive healthcare AI research prototype that pairs a 30-day readmission 
 
 **[Try Clinical-Trace AI 2.0](https://clinical-trace-ai.vathadiabhinav.workers.dev/)** · [Original Streamlit demo](https://huggingface.co/spaces/abhinavvathadi/clinical-trace-ai) · [Evaluation details](https://github.com/AbhinavVarma02/Clinical-Trace-AI/blob/main/docs/EVALUATION.md)
 
----
+<img src="assets/project-02.svg" width="960" alt="" />
 
 ### [AgentOps EvalBench MCP: RAG Evaluation & Observability](https://github.com/AbhinavVarma02/Agentops-Evalbench-MCP)
 
@@ -41,7 +46,7 @@ An evaluation workbench for testing RAG and agentic AI systems before release. *
 
 **[Live Dashboard](https://agentops-evalbench-mcp.streamlit.app/)** · [API documentation](https://agentops-evalbench-api.onrender.com/docs)
 
----
+<img src="assets/project-03.svg" width="960" alt="" />
 
 ### [ClearCast: Full-Stack Agentic AI for Weather-Driven Marketing](https://github.com/AbhinavVarma02/ClearCast---Full-Stack-Agentic-AI-App-for-Weather-Driven-Marketing)
 
@@ -49,7 +54,7 @@ A campaign-planning app that turns OpenWeatherMap forecasts into five-day promot
 
 **[Live Demo](https://huggingface.co/spaces/abhinavvathadi/ClearCast-AI)**
 
----
+<img src="assets/project-04.svg" width="960" alt="" />
 
 ### [Room for Both: Cultural Discovery & Negotiation Decision Support](https://github.com/AbhinavVarma02/Room-for-Both)
 
@@ -57,7 +62,7 @@ A collaboration-planning app that helps independent brands and venues find commo
 
 **[Explore the App](https://room-for-both.room-for-both.workers.dev/)**
 
----
+<img src="assets/project-05.svg" width="960" alt="" />
 
 ### [FabPilot AI: Explainable Semiconductor Yield Decision Support](https://github.com/AbhinavVarma02/Fabpilot-ai)
 
@@ -65,7 +70,7 @@ A Streamlit + LangGraph workflow combining **SECOM process-sensor risk**, a **Py
 
 **[Live Demo](https://huggingface.co/spaces/AbhinavVarma/fabpilot-ai)** · [Evaluation audit](https://github.com/AbhinavVarma02/Fabpilot-ai/blob/main/reports/wm811k_review_audit.md)
 
----
+<img src="assets/project-06.svg" width="960" alt="" />
 
 ### [GameLens AI: Computer Vision & Grounded Soccer Analytics](https://github.com/AbhinavVarma02/Gamelens-AI)
 
@@ -73,7 +78,7 @@ Converts soccer clips into player detections, tracks, movement charts, heatmaps,
 
 **[Live Demo](https://huggingface.co/spaces/abhinavvathadi/gamelens-ai)**
 
----
+<img src="assets/project-07.svg" width="960" alt="" />
 
 ### [DealSight Intelligence: RAG, QLoRA & Multi-Agent Price Estimation](https://github.com/AbhinavVarma02/DealSight-Intelligence-Autonomous-Multi-Agent-Orchestration)
 
@@ -81,7 +86,7 @@ An e-commerce deal-discovery system combining **RAG + GPT-4o-mini**, a **QLoRA f
 
 **[Demo](https://huggingface.co/spaces/abhinavvathadi/DealSight-Intelligence)**
 
----
+<img src="assets/project-08.svg" width="960" alt="" />
 
 ### [Flight Trajectory Anomaly Detection: Reproducible Multi-Model Benchmark](https://github.com/AbhinavVarma02/A-Multi-Model-Benchmark-for-Flight-Trajectory-Anomaly-Detection)
 
@@ -89,31 +94,31 @@ A reproducible ADS-B trajectory research benchmark comparing **Isolation Forest,
 
 **[Demo](https://abhinavvathadi-flight-trajectory-anomaly-detection.hf.space/)**
 
----
+<img src="assets/project-09.svg" width="960" alt="" />
 
 ### GA4 Checkout Funnel Analytics: Data Engineering & Power BI
 
 Modeled **4.3 million GA4 events** using **BigQuery, dbt, Python, and Power BI** to study checkout behavior and identify **279,586 of 360,000 sessions** without a product view. Produced a four-page analysis with **hypothetical** recovery scenarios, not measured revenue improvements.
 
----
+<img src="assets/project-10.svg" width="960" alt="" />
 
 ### [NYC Mobility Big Data Analytics: Reproducible Spark & Hadoop Pipeline](https://github.com/AbhinavVarma02/NYC-Mobility-Big-Data-Analytics)
 
 A locally reproducible data platform that ingests public **NYC TLC taxi trips and traffic counts** into **HDFS**, transforms data with **PySpark and Spark SQL**, publishes curated **Parquet/Hive** tables, and generates zone-demand summaries using **Scala**. Dockerized infrastructure lets others reproduce the historical analysis without a cloud account; traffic counts are treated as a proxy, not direct travel-time measurements.
 
----
+<img src="assets/project-11.svg" width="960" alt="" />
 
 ### RIH Care Insight Assistant: Bounded Student-Support AI Capstone
 
 A collaborative agentic assistant for university student-services Q&A using **RAG, IDF-weighted retrieval, Strands Agents, and deterministic safety routing**. Designed fail-closed handling for crisis and policy-sensitive requests, ambiguity detection, and human-facing clarification, with **56 automated tests** in the documented capstone version.
 
----
+<img src="assets/project-12.svg" width="960" alt="" />
 
 ### [Hospital Performance Prediction: Regression, Classification & Clustering](https://github.com/AbhinavVarma02/Hospital_Performance_Prediction_ML)
 
 A **collaborative UMBC machine-learning course project** with Devika Rani Sanaboyina, exploring hospital readmission and performance data through preprocessing, regression, classification, and clustering notebooks. The repository includes an executive summary and presentation documenting the modeling workflow and comparisons.
 
----
+<img src="assets/project-13.svg" width="960" alt="" />
 
 ### [Agentic Profile & Lead Assistant: Tool-Calling Q&A](https://github.com/AbhinavVarma02/Agentic-profile-lead-assistant)
 
@@ -124,7 +129,7 @@ A Python + Gradio professional-profile assistant using **OpenAI tool calling, cu
 ---
 
 
-## Professional Impact
+## ![Professional Impact](assets/professional-impact.svg)
 
 | Metric | Context |
 |---|---|
@@ -143,7 +148,7 @@ A Python + Gradio professional-profile assistant using **OpenAI tool calling, cu
 ---
 
 
-## Current Focus
+## ![Current Focus](assets/current-focus.svg)
 
 Open to **full-time Applied AI Engineer, AI/ML Engineer, AI-focused Software Engineer, Forward Deployed Engineer, and Data Scientist roles**.
 
@@ -152,7 +157,7 @@ I focus on building AI applications people can inspect and test: grounded agents
 ---
 
 
-## Tech Stack
+## ![Tech Stack](assets/tech-stack.svg)
 
 **Languages**
 
@@ -236,7 +241,7 @@ KPI design, dashboard refresh pipelines, data validation, stakeholder reporting,
 
 ---
 
-## Certifications
+## ![Certifications](assets/certifications.svg)
 
 **AI / LLM Engineering**
 
@@ -268,12 +273,16 @@ KPI design, dashboard refresh pipelines, data validation, stakeholder reporting,
 
 ---
 
-## Contact
+## ![Contact](assets/contact.svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinav-varma-vathadi)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhinavvathadi@gmail.com)
 
 ---
+
+[![Contribution terrain — actual relative GitHub activity levels](assets/contribution-terrain.svg)](https://github.com/AbhinavVarma02#contribution-graph)
+
+[Activity explorer source](activity.html)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavVarma02/AbhinavVarma02/output/github-snake-dark.svg" />
