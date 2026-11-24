@@ -32,9 +32,9 @@ Applied AI Engineer and Data Scientist building **evidence-grounded agents, full
 
 <img src="assets/project-01.svg" width="960" alt="" />
 
-### [Healthcare Payment Integrity: Claim Review Optimization, Financial Risk & Model Validation](https://github.com/AbhinavVarma02/Healthcare-Payment-Integrity)
+### [Healthcare Payment Integrity: Smarter Healthcare Claims Review](https://github.com/AbhinavVarma02/Healthcare-Payment-Integrity)
 
-A healthcare payment integrity research platform that prioritizes Medicare Fee-for-Service claim reviews under a constrained audit budget. Built with **Python, DuckDB, Parquet, FastAPI, React, and TypeScript**, it analyzes **199,052 claim groups across eight CMS CERT public releases** and compares risk ranking, randomized exploration, design-aware estimation, and delayed-feedback learning. At 5% review capacity across 200 simulation seeds, the 10% exploration hybrid retained **95.9% of greedy review yield**. The boosted-tree challenger did not meet its predefined practical improvement criteria. The public workspace presents frozen aggregate results and a fictional review simulation; financial assumptions are hypothetical, and published disagreements are not proof of fraud.
+I built this project to help healthcare teams decide which claims to review first when time and resources are limited. Using **199,052 claim groups from public Medicare data**, I compared ways to identify potential payment issues and better understand how often they occur. In one simulated study, combining high-risk reviews with a small random sample retained **95.9% of the findings** of reviewing only the highest-risk groups. The live application lets users adjust review budgets, compare strategies, and walk through a sample claim review. It is a research prototype with fictional financial scenarios, not a live claims-processing system.
 
 **[Live Analyst Workspace](https://healthcare-payment-integrity.pages.dev/)** · [Research report](https://github.com/AbhinavVarma02/Healthcare-Payment-Integrity/blob/main/docs/REPORT.md) · [v1.0.1 release](https://github.com/AbhinavVarma02/Healthcare-Payment-Integrity/releases/tag/v1.0.1)
 
